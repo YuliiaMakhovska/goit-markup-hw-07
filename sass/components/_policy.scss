@@ -1,0 +1,33 @@
+.policy-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.check-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.check-item {
+  width: 16px;
+  height: 15px;
+  border: 2px solid #000000;
+  border-radius: 2px;
+  margin-right: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.policy-link {
+  color: var(--accent-color);
+  text-decoration: underline;
+}
+.policy-box-check:checked + .check-text .check-item {
+  background-color: var(--accent-color);
+  border: none;
+}
