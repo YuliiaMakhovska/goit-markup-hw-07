@@ -1,7 +1,7 @@
 .join-box {
   margin-right: 93px;
 }
-.join-box-title {
+.join-box__title {
   color: var(--main-title-color);
   font-weight: 700;
   font-size: 14px;
@@ -11,7 +11,7 @@
   margin-bottom: 20px;
 }
 
-.join-box-link {
+.join-box__link {
   height: 100%;
   width: 100%;
   background-color: rgba(255, 255, 255, 0.1);
@@ -26,7 +26,7 @@
   }
 }
 
-.join-box-item {
+.join-box__item {
   height: 44px;
   width: 44px;
 }
@@ -35,9 +35,9 @@
   justify-content: space-between;
   border-radius: 0px 0px 4px 4px;
 }
-.join-box-item + .join-box-item {
+.join-box__item + .join-box__item {
   margin-left: 10px;
 }
-.join-box-icon {
+.join-box__icon {
   fill: var(--main-btn-color);
 }

@@ -3,7 +3,7 @@
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.footer-container {
+.footer__container {
   display: flex;
   align-items: baseline;
 }
@@ -30,10 +30,10 @@
   color: var(--third-logo-text-color);
 }
 
-.footer-item:not(:last-child) {
+.footer-list__item:not(:last-child) {
   margin-bottom: 9px;
 }
-.address-link {
+.footer-list__address-link {
   display: flex;
   font-style: normal;
   font-weight: 400;
@@ -48,7 +48,7 @@
   }
 }
 
-.footer-link {
+.footer-list__link {
   display: flex;
   font-style: normal;
   font-weight: 400;

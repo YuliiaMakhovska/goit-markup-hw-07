@@ -2,7 +2,7 @@
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.features-container {
+.features__container {
   display: flex;
 }
 .visually-hidden {
@@ -19,13 +19,13 @@
   display: flex;
   margin: 0 auto;
 }
-.features-item {
+.features-list__item {
   margin-right: 30px;
 }
-.features-item:nth-child(4) {
+.features-list__item:nth-child(4) {
   margin-right: 0px;
 }
-.icon-box {
+.features-list__icon-box {
   width: 270px;
   height: 120px;
   background-color: #f5f4fa;
@@ -36,7 +36,7 @@
   align-items: center;
   justify-content: center;
 }
-.features-title {
+.features__title {
   display: flex;
   font-weight: 700;
   font-size: 14px;
@@ -47,7 +47,7 @@
   margin-bottom: 10px;
   width: 270px;
 }
-.after-title {
+.features__after-title {
   display: flex;
   justify-content: center;
   width: 270px;

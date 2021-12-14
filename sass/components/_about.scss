@@ -2,7 +2,7 @@
   padding-bottom: 94px;
   padding-top: 94px;
 }
-.about-title {
+.about__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -14,19 +14,19 @@
 .about-list {
   display: flex;
 }
-.about-list-item {
+.about-list__item {
   display: block;
   max-width: 100%;
   height: auto;
 }
-.about-list-item:not(:last-child) {
+.about-list__item:not(:last-child) {
   margin-right: 30px;
   max-width: 370px;
 }
-.about-list-box {
+.about-list__box {
   position: relative;
 }
-.about-list-text {
+.about-list__text {
   position: absolute;
   font-weight: 700;
   font-size: 14px;

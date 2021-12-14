@@ -2,7 +2,7 @@
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.clients-title {
+.clients__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -16,7 +16,7 @@
   align-items: center;
   justify-content: space-between;
 }
-.clients-list-item-link {
+.clients-list__link {
   display: flex;
   width: 170px;
   height: 92px;
@@ -31,13 +31,13 @@
     border-color: var(--accent-color);
   }
 }
-.clients-list-item:not(:last-child) {
+.clients-list__item:not(:last-child) {
   margin-right: 30px;
 }
-.clients-list-item-icon {
+.clients-list__icon {
   fill: #afb1b8;
 }
 
-.clients-list-item-link:hover .clients-list-item-icon {
+.clients-list__link:hover .clients-list__icon {
   fill: var(--accent-color);
 }
